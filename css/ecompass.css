@@ -1,0 +1,23 @@
+div {
+	text-align: center;
+}
+
+.info_bar {
+	font-size: 1.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+img#ecompass {
+	width: 0em;
+	height: 0em;
+	background: no-repeat center;
+	background-image:url("../images/bg.png");
+	background-size: 0px 0em;
+}
+
+.debug {
+	font-size: 0.8em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
