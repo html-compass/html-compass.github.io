@@ -1,0 +1,22 @@
+{
+    "version": "0.1",
+    "name": "Compass",
+    "installs_allowed_from": ["*"],
+    "developer": {
+        "name": "Askeing",
+        "url": "http://askeing-apps.droppages.com/ecompass"
+    },
+    "icons": {
+        "30": "/images/icons-30.png",
+        "60": "/images/icons-60.png",
+        "128": "/images/icons-128.png"
+    },
+    "locales": {
+        "en": {"name": "Compass", "description":"E-Compass base on HTML."},
+        "zh-tw": {"name": "指南針", "description":"HTML 指南針。"},
+        "zh-cn": {"name": "指南针", "description":"HTML 指南针。"}
+    },
+    "default_locale":"en",
+    "description":"E-Compass",
+    "orientation": "portrait-primary"
+}
