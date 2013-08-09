@@ -1,10 +1,9 @@
 function resizeImage()
 {
 	var ecompass_size = Math.min(screen.width, screen.height) * 0.75;
-	var ecompass_bg_size = Math.min(screen.width, screen.height) * 0.75;
 	document.getElementById("ecompass").style.width = ecompass_size + "px";
 	document.getElementById("ecompass").style.height = ecompass_size + "px";
-	document.getElementById("ecompass").style.backgroundSize = ecompass_bg_size + "px " +  ecompass_bg_size + "px";
+	document.getElementById("ecompass").style.backgroundSize = ecompass_size + "px " +  ecompass_size + "px";
 }
 
 window.setTimeout(function () {
